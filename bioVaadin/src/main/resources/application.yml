@@ -1,0 +1,8 @@
+server:
+  port: 8080
+  contextPath: /biohack
+  session:
+    timeout: 3600
+    
+logging:
+  file: biohack.log

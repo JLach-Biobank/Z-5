@@ -1,0 +1,46 @@
+plugins {
+	id 'org.springframework.boot' version '1.5.9.RELEASE'
+	id 'eclipse'
+	id 'war'
+    id 'java'
+}
+
+
+version = ''
+sourceCompatibility = 1.8
+group = 'com.biohack.z5'
+
+ext.vaadinVersion = '8.1.7'
+ext.vaadinSpringBootStarter = '3.0.0'
+ext.vaadinSpringBootExtVersion = '2.0.0.RELEASE'
+
+
+[compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	compile("org.springframework.boot:spring-boot-starter-web")
+	
+	compile "com.vaadin:vaadin-server:${vaadinVersion}"
+  	compile "com.vaadin:vaadin-client-compiled:${vaadinVersion}"
+  	compile "com.vaadin:vaadin-themes:${vaadinVersion}"
+	
+	compile "com.vaadin:vaadin-spring-boot-starter:${vaadinSpringBootStarter}"
+	
+	compile "org.vaadin.spring.extensions:vaadin-spring-ext-test:${vaadinSpringBootExtVersion}"
+	compile "org.vaadin.spring.extensions:vaadin-spring-ext-boot:${vaadinSpringBootExtVersion}"
+  	compile "org.vaadin.spring.extensions:vaadin-spring-ext-core:${vaadinSpringBootExtVersion}"
+		
+}
+
+sourceSets {
+    main {
+        resources {
+            srcDirs "src/main/resources", "src/main/webapp"
+        }
+    }
+}
+
