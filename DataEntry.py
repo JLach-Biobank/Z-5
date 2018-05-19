@@ -31,8 +31,8 @@ def encodePair(p1, p2):
 # Take HACK.ped file and turn into csv before you start
 # cat HACK_15_one.ped | tr ' ' ',' > HACK.ped.all.csv
 def convert_data(path=BIODATA_PATH):
-    csv_path = os.path.join(path, "HACK.all.csv")
-    csv_path_fixed=os.path.join(path, "HACK.all.fixed.csv")
+    csv_path = os.path.join(path, "HACK.first10.csv")
+    csv_path_fixed=os.path.join(path, "HACK.first10.fixed.csv")
     lineNo=1
 
     with open(csv_path) as fin:
@@ -43,27 +43,23 @@ def convert_data(path=BIODATA_PATH):
                 #    lineNo+=1
                 #    continue
                 entry = line.rstrip().split(',')
-                print (entry)
+                #print (entry)
                 print ("Number of nukleotides %d" % len(entry))
                 print ("lineNo %d" % lineNo)
                 print ("FID {%s}" % entry[0])
                 print ("SampleId %s" % entry[1])
                 print ("Sex %s" % entry[4] )
                 print ("Affection %s" % entry[5])
-                print (line)
+                #print (line)
                 lineNo+=1
-                header=entry[0]+"," +entry[1]+ ","+entry[4] +","+entry[5]
+                header=entry[0]+"," +entry[1]+ ","+entry[4] +","+entry[5]+","
                 print(header)
                 fout.write(header)
                 for i in range(6,len(entry)-2,2):
                     fout.write(str(encodePair(entry[i], entry[i+1])) +",")
 
-                fout.write(str(encodePair(entry[-1], entry[-2])) )
+                fout.write("" + str(encodePair(entry[-1], entry[-2])) )
                 fout.write("\n")
-
-
-
-
 
 
 data=convert_data("newdata")
