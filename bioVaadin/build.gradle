@@ -10,7 +10,7 @@ version = ''
 sourceCompatibility = 1.8
 group = 'com.biohack.z5'
 
-ext.vaadinVersion = '8.1.7'
+ext.vaadinVersion = '8.4.2'
 ext.vaadinSpringBootStarter = '3.0.0'
 ext.vaadinSpringBootExtVersion = '2.0.0.RELEASE'
 

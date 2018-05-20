@@ -1,49 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eabe236d-533f-4ae0-9a70-5c7cf78d0d98" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Z-5.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bioVaadin/.classpath" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bioVaadin/.gradle/4.6/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bioVaadin/.gradle/4.6/fileContent/annotation-processors.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bioVaadin/.gradle/4.6/fileContent/fileContent.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bioVaadin/.gradle/4.6/fileHashes/fileHashes.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bioVaadin/.gradle/4.6/fileHashes/fileHashes.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bioVaadin/.gradle/4.6/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bioVaadin/.gradle/4.6/taskHistory/taskHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bioVaadin/.gradle/4.6/taskHistory/taskHistory.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bioVaadin/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bioVaadin/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bioVaadin/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bioVaadin/.gradle/vcsWorkingDirs/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bioVaadin/.project" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bioVaadin/.settings/org.eclipse.buildship.core.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bioVaadin/.settings/org.eclipse.wst.common.component" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bioVaadin/.settings/org.eclipse.wst.common.project.facet.core.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bioVaadin/bin/main/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bioVaadin/bin/main/com/biohack/z5/BioHackApp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bioVaadin/bin/main/com/biohack/z5/ui/MainUI.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bioVaadin/biohack.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bioVaadin/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bioVaadin/build/classes/java/main/com/biohack/z5/BioHackApp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bioVaadin/build/classes/java/main/com/biohack/z5/ui/MainUI.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bioVaadin/build/libs/bioVaadin.war" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bioVaadin/build/resources/main/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bioVaadin/build/tmp/war/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bioVaadin/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bioVaadin/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bioVaadin/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bioVaadin/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bioVaadin/src/main/java/com/biohack/z5/BioHackApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bioVaadin/src/main/java/com/biohack/z5/ui/MainUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bioVaadin/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataEntry.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataEntry.py" afterDir="false" />
-    </list>
+    <list default="true" id="eabe236d-533f-4ae0-9a70-5c7cf78d0d98" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +15,7 @@
         <entry file="file://$PROJECT_DIR$/DataEntry.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
-              <caret line="22" column="61" lean-forward="true" selection-start-line="22" selection-start-column="61" selection-end-line="22" selection-end-column="61" />
+              <caret line="22" column="61" selection-start-line="22" selection-start-column="61" selection-end-line="22" selection-end-column="61" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -170,7 +128,7 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24959569" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3295688" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3295688" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -212,7 +170,7 @@
     <entry file="file://$PROJECT_DIR$/DataEntry.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="22" column="61" lean-forward="true" selection-start-line="22" selection-start-column="61" selection-end-line="22" selection-end-column="61" />
+          <caret line="22" column="61" selection-start-line="22" selection-start-column="61" selection-end-line="22" selection-end-column="61" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
           </folding>

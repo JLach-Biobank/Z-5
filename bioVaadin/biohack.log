@@ -301,3 +301,319 @@ Caused by: java.lang.ClassNotFoundException: com.vaadin.navigator.PushStateNavig
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[na:1.8.0_171]
 	... 31 common frames omitted
 
+2018-05-19 23:51:19.773  INFO 11281 --- [main] com.biohack.z5.BioHackApp                : Starting BioHackApp on dell with PID 11281 (/home/plapinski/Praca/Biohack/Z-5/bioVaadin/bin/main started by plapinski in /home/plapinski/Praca/Biohack/Z-5/bioVaadin)
+2018-05-19 23:51:19.775  INFO 11281 --- [main] com.biohack.z5.BioHackApp                : No active profile set, falling back to default profiles: default
+2018-05-19 23:51:19.806  INFO 11281 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@470f1802: startup date [Sat May 19 23:51:19 CEST 2018]; root of context hierarchy
+2018-05-19 23:51:20.187  WARN 11281 --- [main] o.s.c.a.ConfigurationClassPostProcessor  : Cannot enhance @Configuration bean definition 'com.vaadin.spring.VaadinConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2018-05-19 23:51:20.650  INFO 11281 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2018-05-19 23:51:20.657  INFO 11281 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-05-19 23:51:20.658  INFO 11281 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-05-19 23:51:20.712  INFO 11281 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/biohack]       : Initializing Spring embedded WebApplicationContext
+2018-05-19 23:51:20.712  INFO 11281 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 909 ms
+2018-05-19 23:51:20.786  INFO 11281 --- [localhost-startStop-1] c.v.s.b.i.VaadinServletConfiguration     : Registering Vaadin servlet
+2018-05-19 23:51:20.786  INFO 11281 --- [localhost-startStop-1] c.v.s.b.i.VaadinServletConfiguration     : Servlet will be mapped to URLs [/vaadinServlet/*, /VAADIN/*]
+2018-05-19 23:51:20.791  INFO 11281 --- [localhost-startStop-1] o.v.spring.servlet.Vaadin4SpringServlet  : Using custom Vaadin4Spring servlet
+2018-05-19 23:51:20.798  INFO 11281 --- [localhost-startStop-1] c.v.s.b.i.VaadinServletConfiguration     : Setting servlet init parameters
+2018-05-19 23:51:20.798  INFO 11281 --- [localhost-startStop-1] c.v.s.b.i.VaadinServletConfiguration     : Set servlet init parameter [productionMode] = [false]
+2018-05-19 23:51:20.799  INFO 11281 --- [localhost-startStop-1] c.v.s.b.i.VaadinServletConfiguration     : Set servlet init parameter [resourceCacheTime] = [3600]
+2018-05-19 23:51:20.799  INFO 11281 --- [localhost-startStop-1] c.v.s.b.i.VaadinServletConfiguration     : Set servlet init parameter [heartbeatInterval] = [300]
+2018-05-19 23:51:20.799  INFO 11281 --- [localhost-startStop-1] c.v.s.b.i.VaadinServletConfiguration     : Set servlet init parameter [closeIdleSessions] = [false]
+2018-05-19 23:51:20.834  INFO 11281 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-05-19 23:51:20.835  INFO 11281 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'vaadin4SpringServlet' to [/vaadinServlet/*, /VAADIN/*]
+2018-05-19 23:51:20.837  INFO 11281 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-05-19 23:51:20.838  INFO 11281 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-05-19 23:51:20.838  INFO 11281 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-05-19 23:51:20.838  INFO 11281 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-05-19 23:51:20.838  INFO 11281 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpResponseFilter' to: [/*]
+2018-05-19 23:51:21.035  INFO 11281 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@470f1802: startup date [Sat May 19 23:51:19 CEST 2018]; root of context hierarchy
+2018-05-19 23:51:21.070  INFO 11281 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-05-19 23:51:21.071  INFO 11281 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-05-19 23:51:21.089  INFO 11281 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-19 23:51:21.090  INFO 11281 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-19 23:51:21.111  INFO 11281 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-19 23:51:21.140  INFO 11281 --- [main] c.v.s.b.i.VaadinServletConfiguration     : Checking the application context for Vaadin UI mappings
+2018-05-19 23:51:21.144  WARN 11281 --- [main] ationConfigEmbeddedWebApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'vaadinUiForwardingHandlerMapping' defined in class path resource [com/vaadin/spring/boot/internal/VaadinServletConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]: Factory method 'vaadinUiForwardingHandlerMapping' threw exception; nested exception is java.lang.NoClassDefFoundError: com/vaadin/navigator/PushStateNavigation
+2018-05-19 23:51:21.146  INFO 11281 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2018-05-19 23:51:21.157  INFO 11281 --- [main] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-05-19 23:51:21.163 ERROR 11281 --- [main] o.s.boot.SpringApplication               : Application startup failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'vaadinUiForwardingHandlerMapping' defined in class path resource [com/vaadin/spring/boot/internal/VaadinServletConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]: Factory method 'vaadinUiForwardingHandlerMapping' threw exception; nested exception is java.lang.NoClassDefFoundError: com/vaadin/navigator/PushStateNavigation
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:599) ~[spring-beans-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173) ~[spring-beans-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067) ~[spring-beans-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513) ~[spring-beans-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483) ~[spring-beans-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306) ~[spring-beans-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) ~[spring-beans-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302) ~[spring-beans-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197) ~[spring-beans-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761) ~[spring-beans-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867) ~[spring-context-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543) ~[spring-context-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) ~[spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at com.biohack.z5.BioHackApp.main(BioHackApp.java:17) [main/:na]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]: Factory method 'vaadinUiForwardingHandlerMapping' threw exception; nested exception is java.lang.NoClassDefFoundError: com/vaadin/navigator/PushStateNavigation
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:189) ~[spring-beans-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:588) ~[spring-beans-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	... 18 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: com/vaadin/navigator/PushStateNavigation
+	at com.vaadin.spring.boot.internal.VaadinServletConfiguration.getUIPaths(VaadinServletConfiguration.java:133) ~[vaadin-spring-boot-3.0.0.jar:3.0.0]
+	at com.vaadin.spring.boot.internal.VaadinServletConfiguration.vaadinUiForwardingHandlerMapping(VaadinServletConfiguration.java:101) ~[vaadin-spring-boot-3.0.0.jar:3.0.0]
+	at com.vaadin.spring.boot.internal.VaadinServletConfiguration$$EnhancerBySpringCGLIB$$265e2ef5.CGLIB$vaadinUiForwardingHandlerMapping$3(<generated>) ~[vaadin-spring-boot-3.0.0.jar:3.0.0]
+	at com.vaadin.spring.boot.internal.VaadinServletConfiguration$$EnhancerBySpringCGLIB$$265e2ef5$$FastClassBySpringCGLIB$$b0b45c83.invoke(<generated>) ~[vaadin-spring-boot-3.0.0.jar:3.0.0]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228) ~[spring-core-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:358) ~[spring-context-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at com.vaadin.spring.boot.internal.VaadinServletConfiguration$$EnhancerBySpringCGLIB$$265e2ef5.vaadinUiForwardingHandlerMapping(<generated>) ~[vaadin-spring-boot-3.0.0.jar:3.0.0]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_171]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_171]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_171]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_171]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:162) ~[spring-beans-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	... 19 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.vaadin.navigator.PushStateNavigation
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381) ~[na:1.8.0_171]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[na:1.8.0_171]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349) ~[na:1.8.0_171]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[na:1.8.0_171]
+	... 31 common frames omitted
+
+2018-05-19 23:52:35.568  INFO 11543 --- [main] com.biohack.z5.BioHackApp                : Starting BioHackApp on dell with PID 11543 (/home/plapinski/Praca/Biohack/Z-5/bioVaadin/bin/main started by plapinski in /home/plapinski/Praca/Biohack/Z-5/bioVaadin)
+2018-05-19 23:52:35.570  INFO 11543 --- [main] com.biohack.z5.BioHackApp                : No active profile set, falling back to default profiles: default
+2018-05-19 23:52:35.597  INFO 11543 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@470f1802: startup date [Sat May 19 23:52:35 CEST 2018]; root of context hierarchy
+2018-05-19 23:52:35.917  WARN 11543 --- [main] o.s.c.a.ConfigurationClassPostProcessor  : Cannot enhance @Configuration bean definition 'com.vaadin.spring.VaadinConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2018-05-19 23:52:36.296  INFO 11543 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2018-05-19 23:52:36.302  INFO 11543 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-05-19 23:52:36.303  INFO 11543 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-05-19 23:52:36.349  INFO 11543 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/biohack]       : Initializing Spring embedded WebApplicationContext
+2018-05-19 23:52:36.349  INFO 11543 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 754 ms
+2018-05-19 23:52:36.423  INFO 11543 --- [localhost-startStop-1] c.v.s.b.i.VaadinServletConfiguration     : Registering Vaadin servlet
+2018-05-19 23:52:36.424  INFO 11543 --- [localhost-startStop-1] c.v.s.b.i.VaadinServletConfiguration     : Servlet will be mapped to URLs [/vaadinServlet/*, /VAADIN/*]
+2018-05-19 23:52:36.431  INFO 11543 --- [localhost-startStop-1] o.v.spring.servlet.Vaadin4SpringServlet  : Using custom Vaadin4Spring servlet
+2018-05-19 23:52:36.439  INFO 11543 --- [localhost-startStop-1] c.v.s.b.i.VaadinServletConfiguration     : Setting servlet init parameters
+2018-05-19 23:52:36.440  INFO 11543 --- [localhost-startStop-1] c.v.s.b.i.VaadinServletConfiguration     : Set servlet init parameter [productionMode] = [false]
+2018-05-19 23:52:36.440  INFO 11543 --- [localhost-startStop-1] c.v.s.b.i.VaadinServletConfiguration     : Set servlet init parameter [resourceCacheTime] = [3600]
+2018-05-19 23:52:36.440  INFO 11543 --- [localhost-startStop-1] c.v.s.b.i.VaadinServletConfiguration     : Set servlet init parameter [heartbeatInterval] = [300]
+2018-05-19 23:52:36.440  INFO 11543 --- [localhost-startStop-1] c.v.s.b.i.VaadinServletConfiguration     : Set servlet init parameter [closeIdleSessions] = [false]
+2018-05-19 23:52:36.476  INFO 11543 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-05-19 23:52:36.477  INFO 11543 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'vaadin4SpringServlet' to [/vaadinServlet/*, /VAADIN/*]
+2018-05-19 23:52:36.481  INFO 11543 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-05-19 23:52:36.482  INFO 11543 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-05-19 23:52:36.482  INFO 11543 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-05-19 23:52:36.482  INFO 11543 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-05-19 23:52:36.482  INFO 11543 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpResponseFilter' to: [/*]
+2018-05-19 23:52:36.674  INFO 11543 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@470f1802: startup date [Sat May 19 23:52:35 CEST 2018]; root of context hierarchy
+2018-05-19 23:52:36.710  INFO 11543 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-05-19 23:52:36.711  INFO 11543 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-05-19 23:52:36.729  INFO 11543 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-19 23:52:36.730  INFO 11543 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-19 23:52:36.753  INFO 11543 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-19 23:52:36.787  INFO 11543 --- [main] c.v.s.b.i.VaadinServletConfiguration     : Checking the application context for Vaadin UI mappings
+2018-05-19 23:52:36.791  WARN 11543 --- [main] ationConfigEmbeddedWebApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'vaadinUiForwardingHandlerMapping' defined in class path resource [com/vaadin/spring/boot/internal/VaadinServletConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]: Factory method 'vaadinUiForwardingHandlerMapping' threw exception; nested exception is java.lang.NoClassDefFoundError: com/vaadin/navigator/PushStateNavigation
+2018-05-19 23:52:36.792  INFO 11543 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2018-05-19 23:52:36.803  INFO 11543 --- [main] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-05-19 23:52:36.809 ERROR 11543 --- [main] o.s.boot.SpringApplication               : Application startup failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'vaadinUiForwardingHandlerMapping' defined in class path resource [com/vaadin/spring/boot/internal/VaadinServletConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]: Factory method 'vaadinUiForwardingHandlerMapping' threw exception; nested exception is java.lang.NoClassDefFoundError: com/vaadin/navigator/PushStateNavigation
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:599) ~[spring-beans-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173) ~[spring-beans-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067) ~[spring-beans-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513) ~[spring-beans-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483) ~[spring-beans-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306) ~[spring-beans-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) ~[spring-beans-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302) ~[spring-beans-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197) ~[spring-beans-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761) ~[spring-beans-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867) ~[spring-context-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543) ~[spring-context-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) ~[spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at com.biohack.z5.BioHackApp.main(BioHackApp.java:17) [main/:na]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]: Factory method 'vaadinUiForwardingHandlerMapping' threw exception; nested exception is java.lang.NoClassDefFoundError: com/vaadin/navigator/PushStateNavigation
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:189) ~[spring-beans-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:588) ~[spring-beans-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	... 18 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: com/vaadin/navigator/PushStateNavigation
+	at com.vaadin.spring.boot.internal.VaadinServletConfiguration.getUIPaths(VaadinServletConfiguration.java:133) ~[vaadin-spring-boot-3.0.0.jar:3.0.0]
+	at com.vaadin.spring.boot.internal.VaadinServletConfiguration.vaadinUiForwardingHandlerMapping(VaadinServletConfiguration.java:101) ~[vaadin-spring-boot-3.0.0.jar:3.0.0]
+	at com.vaadin.spring.boot.internal.VaadinServletConfiguration$$EnhancerBySpringCGLIB$$265e2ef5.CGLIB$vaadinUiForwardingHandlerMapping$3(<generated>) ~[vaadin-spring-boot-3.0.0.jar:3.0.0]
+	at com.vaadin.spring.boot.internal.VaadinServletConfiguration$$EnhancerBySpringCGLIB$$265e2ef5$$FastClassBySpringCGLIB$$b0b45c83.invoke(<generated>) ~[vaadin-spring-boot-3.0.0.jar:3.0.0]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228) ~[spring-core-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:358) ~[spring-context-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at com.vaadin.spring.boot.internal.VaadinServletConfiguration$$EnhancerBySpringCGLIB$$265e2ef5.vaadinUiForwardingHandlerMapping(<generated>) ~[vaadin-spring-boot-3.0.0.jar:3.0.0]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_171]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_171]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_171]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_171]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:162) ~[spring-beans-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	... 19 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.vaadin.navigator.PushStateNavigation
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381) ~[na:1.8.0_171]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[na:1.8.0_171]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349) ~[na:1.8.0_171]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[na:1.8.0_171]
+	... 31 common frames omitted
+
+2018-05-20 00:37:45.208  INFO 17914 --- [main] com.biohack.z5.BioHackApp                : Starting BioHackApp on dell with PID 17914 (/home/plapinski/Praca/Biohack/Z-5/bioVaadin/bin/main started by plapinski in /home/plapinski/Praca/Biohack/Z-5/bioVaadin)
+2018-05-20 00:37:45.210  INFO 17914 --- [main] com.biohack.z5.BioHackApp                : No active profile set, falling back to default profiles: default
+2018-05-20 00:37:45.240  INFO 17914 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@470f1802: startup date [Sun May 20 00:37:45 CEST 2018]; root of context hierarchy
+2018-05-20 00:37:45.587  WARN 17914 --- [main] o.s.c.a.ConfigurationClassPostProcessor  : Cannot enhance @Configuration bean definition 'com.vaadin.spring.VaadinConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2018-05-20 00:37:45.967  INFO 17914 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2018-05-20 00:37:45.974  INFO 17914 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-05-20 00:37:45.975  INFO 17914 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-05-20 00:37:46.024  INFO 17914 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/biohack]       : Initializing Spring embedded WebApplicationContext
+2018-05-20 00:37:46.025  INFO 17914 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 787 ms
+2018-05-20 00:37:46.097  INFO 17914 --- [localhost-startStop-1] c.v.s.b.i.VaadinServletConfiguration     : Registering Vaadin servlet
+2018-05-20 00:37:46.098  INFO 17914 --- [localhost-startStop-1] c.v.s.b.i.VaadinServletConfiguration     : Servlet will be mapped to URLs [/vaadinServlet/*, /VAADIN/*]
+2018-05-20 00:37:46.104  INFO 17914 --- [localhost-startStop-1] o.v.spring.servlet.Vaadin4SpringServlet  : Using custom Vaadin4Spring servlet
+2018-05-20 00:37:46.110  INFO 17914 --- [localhost-startStop-1] c.v.s.b.i.VaadinServletConfiguration     : Setting servlet init parameters
+2018-05-20 00:37:46.111  INFO 17914 --- [localhost-startStop-1] c.v.s.b.i.VaadinServletConfiguration     : Set servlet init parameter [productionMode] = [false]
+2018-05-20 00:37:46.111  INFO 17914 --- [localhost-startStop-1] c.v.s.b.i.VaadinServletConfiguration     : Set servlet init parameter [resourceCacheTime] = [3600]
+2018-05-20 00:37:46.111  INFO 17914 --- [localhost-startStop-1] c.v.s.b.i.VaadinServletConfiguration     : Set servlet init parameter [heartbeatInterval] = [300]
+2018-05-20 00:37:46.111  INFO 17914 --- [localhost-startStop-1] c.v.s.b.i.VaadinServletConfiguration     : Set servlet init parameter [closeIdleSessions] = [false]
+2018-05-20 00:37:46.145  INFO 17914 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-05-20 00:37:46.146  INFO 17914 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'vaadin4SpringServlet' to [/vaadinServlet/*, /VAADIN/*]
+2018-05-20 00:37:46.148  INFO 17914 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-05-20 00:37:46.148  INFO 17914 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-05-20 00:37:46.148  INFO 17914 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-05-20 00:37:46.148  INFO 17914 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-05-20 00:37:46.148  INFO 17914 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpResponseFilter' to: [/*]
+2018-05-20 00:37:46.321  INFO 17914 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@470f1802: startup date [Sun May 20 00:37:45 CEST 2018]; root of context hierarchy
+2018-05-20 00:37:46.354  INFO 17914 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-05-20 00:37:46.355  INFO 17914 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-05-20 00:37:46.372  INFO 17914 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-20 00:37:46.372  INFO 17914 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-20 00:37:46.392  INFO 17914 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-20 00:37:46.422  INFO 17914 --- [main] c.v.s.b.i.VaadinServletConfiguration     : Checking the application context for Vaadin UI mappings
+2018-05-20 00:37:46.425  INFO 17914 --- [main] c.v.s.b.i.VaadinServletConfiguration     : Registering Vaadin servlet of type [org.vaadin.spring.servlet.Vaadin4SpringServlet]
+2018-05-20 00:37:46.430  INFO 17914 --- [main] c.v.s.b.i.VaadinServletConfiguration     : Forwarding @SpringUI URLs from {/=org.springframework.web.servlet.mvc.ServletForwardingController@6134ac4a}
+2018-05-20 00:37:46.431  INFO 17914 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Root mapping to handler of type [class org.springframework.web.servlet.mvc.ServletForwardingController]
+2018-05-20 00:37:46.544  INFO 17914 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-05-20 00:37:46.576  INFO 17914 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2018-05-20 00:37:46.580  INFO 17914 --- [main] com.biohack.z5.BioHackApp                : Started BioHackApp in 1.546 seconds (JVM running for 1.85)
+2018-05-20 00:38:43.359  INFO 17914 --- [http-nio-8080-exec-3] o.a.c.c.C.[.[localhost].[/biohack]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-05-20 00:38:43.359  INFO 17914 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-05-20 00:38:43.368  INFO 17914 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 9 ms
+2018-05-20 00:38:43.379  INFO 17914 --- [http-nio-8080-exec-3] o.v.spring.servlet.Vaadin4SpringServlet  : Found 0 custom init parameter provider(s)
+2018-05-20 00:38:43.380  WARN 17914 --- [http-nio-8080-exec-3] c.v.s.DefaultDeploymentConfiguration     : 
+=================================================================
+Vaadin is running in DEBUG MODE.
+Add productionMode=true to web.xml to disable debug features.
+To show debug window, add ?debug to your application URL.
+=================================================================
+2018-05-20 00:38:43.382  INFO 17914 --- [http-nio-8080-exec-3] o.v.s.s.Vaadin4SpringServletService      : Using custom Vaadin4Spring servlet service
+2018-05-20 00:38:43.391  INFO 17914 --- [http-nio-8080-exec-3] o.v.spring.servlet.Vaadin4SpringServlet  : Could not find a SystemMessagesProvider in the application context, using default
+2018-05-20 00:38:43.393  INFO 17914 --- [http-nio-8080-exec-3] o.v.spring.servlet.Vaadin4SpringServlet  : Custom Vaadin4Spring servlet initialization completed
+2018-05-20 00:38:43.571  WARN 17914 --- [http-nio-8080-exec-7] c.v.spring.navigator.SpringViewProvider  : No SpringViews found
+2018-05-20 00:38:56.592  WARN 17914 --- [http-nio-8080-exec-7] c.v.spring.navigator.SpringViewProvider  : No SpringViews found
+2018-05-20 00:39:37.220  WARN 17914 --- [http-nio-8080-exec-5] c.v.spring.navigator.SpringViewProvider  : No SpringViews found
+2018-05-20 00:39:41.138  INFO 17914 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-05-20 00:39:41.138  INFO 17914 --- [RMI TCP Connection(2)-127.0.0.1] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@470f1802: startup date [Sun May 20 00:37:45 CEST 2018]; root of context hierarchy
+2018-05-20 00:39:41.139  INFO 17914 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-05-20 00:40:31.575  INFO 18429 --- [main] com.biohack.z5.BioHackApp                : Starting BioHackApp on dell with PID 18429 (/home/plapinski/Praca/Biohack/Z-5/bioVaadin/bin/main started by plapinski in /home/plapinski/Praca/Biohack/Z-5/bioVaadin)
+2018-05-20 00:40:31.577  INFO 18429 --- [main] com.biohack.z5.BioHackApp                : No active profile set, falling back to default profiles: default
+2018-05-20 00:40:31.604  INFO 18429 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@470f1802: startup date [Sun May 20 00:40:31 CEST 2018]; root of context hierarchy
+2018-05-20 00:40:31.984  WARN 18429 --- [main] o.s.c.a.ConfigurationClassPostProcessor  : Cannot enhance @Configuration bean definition 'com.vaadin.spring.VaadinConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2018-05-20 00:40:32.400  INFO 18429 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2018-05-20 00:40:32.406  INFO 18429 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-05-20 00:40:32.407  INFO 18429 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-05-20 00:40:32.457  INFO 18429 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/biohack]       : Initializing Spring embedded WebApplicationContext
+2018-05-20 00:40:32.457  INFO 18429 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 855 ms
+2018-05-20 00:40:32.531  INFO 18429 --- [localhost-startStop-1] c.v.s.b.i.VaadinServletConfiguration     : Registering Vaadin servlet
+2018-05-20 00:40:32.531  INFO 18429 --- [localhost-startStop-1] c.v.s.b.i.VaadinServletConfiguration     : Servlet will be mapped to URLs [/vaadinServlet/*, /VAADIN/*]
+2018-05-20 00:40:32.537  INFO 18429 --- [localhost-startStop-1] o.v.spring.servlet.Vaadin4SpringServlet  : Using custom Vaadin4Spring servlet
+2018-05-20 00:40:32.543  INFO 18429 --- [localhost-startStop-1] c.v.s.b.i.VaadinServletConfiguration     : Setting servlet init parameters
+2018-05-20 00:40:32.543  INFO 18429 --- [localhost-startStop-1] c.v.s.b.i.VaadinServletConfiguration     : Set servlet init parameter [productionMode] = [false]
+2018-05-20 00:40:32.543  INFO 18429 --- [localhost-startStop-1] c.v.s.b.i.VaadinServletConfiguration     : Set servlet init parameter [resourceCacheTime] = [3600]
+2018-05-20 00:40:32.543  INFO 18429 --- [localhost-startStop-1] c.v.s.b.i.VaadinServletConfiguration     : Set servlet init parameter [heartbeatInterval] = [300]
+2018-05-20 00:40:32.544  INFO 18429 --- [localhost-startStop-1] c.v.s.b.i.VaadinServletConfiguration     : Set servlet init parameter [closeIdleSessions] = [false]
+2018-05-20 00:40:32.578  INFO 18429 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-05-20 00:40:32.579  INFO 18429 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'vaadin4SpringServlet' to [/vaadinServlet/*, /VAADIN/*]
+2018-05-20 00:40:32.583  INFO 18429 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-05-20 00:40:32.583  INFO 18429 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-05-20 00:40:32.584  INFO 18429 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-05-20 00:40:32.584  INFO 18429 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-05-20 00:40:32.584  INFO 18429 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpResponseFilter' to: [/*]
+2018-05-20 00:40:32.760  INFO 18429 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@470f1802: startup date [Sun May 20 00:40:31 CEST 2018]; root of context hierarchy
+2018-05-20 00:40:32.796  INFO 18429 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-05-20 00:40:32.797  INFO 18429 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-05-20 00:40:32.819  INFO 18429 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-20 00:40:32.820  INFO 18429 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-20 00:40:32.840  INFO 18429 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-20 00:40:32.867  INFO 18429 --- [main] c.v.s.b.i.VaadinServletConfiguration     : Checking the application context for Vaadin UI mappings
+2018-05-20 00:40:32.870  INFO 18429 --- [main] c.v.s.b.i.VaadinServletConfiguration     : Registering Vaadin servlet of type [org.vaadin.spring.servlet.Vaadin4SpringServlet]
+2018-05-20 00:40:32.874  INFO 18429 --- [main] c.v.s.b.i.VaadinServletConfiguration     : Forwarding @SpringUI URLs from {/=org.springframework.web.servlet.mvc.ServletForwardingController@6134ac4a}
+2018-05-20 00:40:32.875  INFO 18429 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Root mapping to handler of type [class org.springframework.web.servlet.mvc.ServletForwardingController]
+2018-05-20 00:40:32.976  INFO 18429 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-05-20 00:40:33.004  INFO 18429 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2018-05-20 00:40:33.007  INFO 18429 --- [main] com.biohack.z5.BioHackApp                : Started BioHackApp in 1.608 seconds (JVM running for 1.913)
+2018-05-20 00:40:34.194  INFO 18429 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/biohack]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-05-20 00:40:34.194  INFO 18429 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-05-20 00:40:34.203  INFO 18429 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 9 ms
+2018-05-20 00:40:34.213  INFO 18429 --- [http-nio-8080-exec-1] o.v.spring.servlet.Vaadin4SpringServlet  : Found 0 custom init parameter provider(s)
+2018-05-20 00:40:34.215  WARN 18429 --- [http-nio-8080-exec-1] c.v.s.DefaultDeploymentConfiguration     : 
+=================================================================
+Vaadin is running in DEBUG MODE.
+Add productionMode=true to web.xml to disable debug features.
+To show debug window, add ?debug to your application URL.
+=================================================================
+2018-05-20 00:40:34.216  INFO 18429 --- [http-nio-8080-exec-1] o.v.s.s.Vaadin4SpringServletService      : Using custom Vaadin4Spring servlet service
+2018-05-20 00:40:34.225  INFO 18429 --- [http-nio-8080-exec-1] o.v.spring.servlet.Vaadin4SpringServlet  : Could not find a SystemMessagesProvider in the application context, using default
+2018-05-20 00:40:34.226  INFO 18429 --- [http-nio-8080-exec-1] o.v.spring.servlet.Vaadin4SpringServlet  : Custom Vaadin4Spring servlet initialization completed
+2018-05-20 00:40:34.359  WARN 18429 --- [http-nio-8080-exec-5] c.v.spring.navigator.SpringViewProvider  : No SpringViews found
+2018-05-20 01:08:22.449  INFO 18429 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-05-20 01:08:22.450  INFO 18429 --- [RMI TCP Connection(2)-127.0.0.1] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@470f1802: startup date [Sun May 20 00:40:31 CEST 2018]; root of context hierarchy
+2018-05-20 01:08:22.451  INFO 18429 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-05-20 01:08:28.521  INFO 21680 --- [main] com.biohack.z5.BioHackApp                : Starting BioHackApp on dell with PID 21680 (/home/plapinski/Praca/Biohack/Z-5/bioVaadin/bin/main started by plapinski in /home/plapinski/Praca/Biohack/Z-5/bioVaadin)
+2018-05-20 01:08:28.525  INFO 21680 --- [main] com.biohack.z5.BioHackApp                : No active profile set, falling back to default profiles: default
+2018-05-20 01:08:28.563  INFO 21680 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@57ad2aa7: startup date [Sun May 20 01:08:28 CEST 2018]; root of context hierarchy
+2018-05-20 01:08:29.018  WARN 21680 --- [main] o.s.c.a.ConfigurationClassPostProcessor  : Cannot enhance @Configuration bean definition 'com.vaadin.spring.VaadinConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2018-05-20 01:08:29.462  INFO 21680 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2018-05-20 01:08:29.469  INFO 21680 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-05-20 01:08:29.470  INFO 21680 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-05-20 01:08:29.516  INFO 21680 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/biohack]       : Initializing Spring embedded WebApplicationContext
+2018-05-20 01:08:29.516  INFO 21680 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 956 ms
+2018-05-20 01:08:29.595  INFO 21680 --- [localhost-startStop-1] c.v.s.b.i.VaadinServletConfiguration     : Registering Vaadin servlet
+2018-05-20 01:08:29.596  INFO 21680 --- [localhost-startStop-1] c.v.s.b.i.VaadinServletConfiguration     : Servlet will be mapped to URLs [/vaadinServlet/*, /VAADIN/*]
+2018-05-20 01:08:29.603  INFO 21680 --- [localhost-startStop-1] o.v.spring.servlet.Vaadin4SpringServlet  : Using custom Vaadin4Spring servlet
+2018-05-20 01:08:29.614  INFO 21680 --- [localhost-startStop-1] c.v.s.b.i.VaadinServletConfiguration     : Setting servlet init parameters
+2018-05-20 01:08:29.614  INFO 21680 --- [localhost-startStop-1] c.v.s.b.i.VaadinServletConfiguration     : Set servlet init parameter [productionMode] = [false]
+2018-05-20 01:08:29.615  INFO 21680 --- [localhost-startStop-1] c.v.s.b.i.VaadinServletConfiguration     : Set servlet init parameter [resourceCacheTime] = [3600]
+2018-05-20 01:08:29.615  INFO 21680 --- [localhost-startStop-1] c.v.s.b.i.VaadinServletConfiguration     : Set servlet init parameter [heartbeatInterval] = [300]
+2018-05-20 01:08:29.615  INFO 21680 --- [localhost-startStop-1] c.v.s.b.i.VaadinServletConfiguration     : Set servlet init parameter [closeIdleSessions] = [false]
+2018-05-20 01:08:29.663  INFO 21680 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-05-20 01:08:29.664  INFO 21680 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'vaadin4SpringServlet' to [/vaadinServlet/*, /VAADIN/*]
+2018-05-20 01:08:29.667  INFO 21680 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-05-20 01:08:29.667  INFO 21680 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-05-20 01:08:29.667  INFO 21680 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-05-20 01:08:29.667  INFO 21680 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-05-20 01:08:29.667  INFO 21680 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpResponseFilter' to: [/*]
+2018-05-20 01:08:29.891  INFO 21680 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@57ad2aa7: startup date [Sun May 20 01:08:28 CEST 2018]; root of context hierarchy
+2018-05-20 01:08:29.942  INFO 21680 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-05-20 01:08:29.943  INFO 21680 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-05-20 01:08:29.971  INFO 21680 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-20 01:08:29.971  INFO 21680 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-20 01:08:30.002  INFO 21680 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-20 01:08:30.046  INFO 21680 --- [main] c.v.s.b.i.VaadinServletConfiguration     : Checking the application context for Vaadin UI mappings
+2018-05-20 01:08:30.049  INFO 21680 --- [main] c.v.s.b.i.VaadinServletConfiguration     : Registering Vaadin servlet of type [org.vaadin.spring.servlet.Vaadin4SpringServlet]
+2018-05-20 01:08:30.056  INFO 21680 --- [main] c.v.s.b.i.VaadinServletConfiguration     : Forwarding @SpringUI URLs from {/=org.springframework.web.servlet.mvc.ServletForwardingController@3ed7821}
+2018-05-20 01:08:30.056  INFO 21680 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Root mapping to handler of type [class org.springframework.web.servlet.mvc.ServletForwardingController]
+2018-05-20 01:08:30.279  INFO 21680 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-05-20 01:08:30.311  INFO 21680 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2018-05-20 01:08:30.314  INFO 21680 --- [main] com.biohack.z5.BioHackApp                : Started BioHackApp in 2.029 seconds (JVM running for 2.45)
+2018-05-20 01:08:36.508  INFO 21680 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-05-20 01:08:36.509  INFO 21680 --- [RMI TCP Connection(2)-127.0.0.1] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@57ad2aa7: startup date [Sun May 20 01:08:28 CEST 2018]; root of context hierarchy
+2018-05-20 01:08:36.510  INFO 21680 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown

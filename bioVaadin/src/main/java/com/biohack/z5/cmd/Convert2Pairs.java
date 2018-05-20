@@ -12,14 +12,18 @@ import java.util.List;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**
- * Params: [0] - sorted Snipets file path [1] - map file path [2] - ped input
- * file path [3] - result output file path
  * 
  * @author plapinski
  *
  */
 public class Convert2Pairs {
 
+	/**
+	 * 
+	 * @param args
+	 *            [0] - sorted Snipets file path [1] - map file path [2] - ped input
+	 *            file path [3] - result output file path
+	 */
 	public static void main(String[] args) {
 		List<String> sortedPairsDef;
 		List<Integer> convertedMapFile;
